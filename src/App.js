@@ -4,11 +4,19 @@ import Wish from './1.components/class/Wish';
 import Welcome from './2.jsx/Welcome';
 import Greeting from './3.props/Greeting'
 import Welcome1 from './3.props/Welcome'
+import Message from './4.state/Message';
+import Counter from './4.state/Counter';
+import Student from './5.destructuring/1.props/Student';
+import Person from './5.destructuring/2.state/Person';
+import FunctionClick from './6.event-handling/FunctionClick';
+import ClassClick from './6.event-handling/ClassClick';
+import EventBind from './6.event-handling/EventBind';
+import Parent from './7.parent-child/Parent';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      {/* <h1>Hello World</h1>
       <Greet />
       <Wish />
       <Welcome />
@@ -33,7 +41,15 @@ function App() {
       <Welcome1 name="Sambhav" heroName="Iron Man" >
       <p>He is Iron Man, He is the INVINCIBLE IRON MAN!</p>
       </Welcome1>
-
+      <Message />
+      <Counter />
+      <Student name="Jagrav" heroName="Dream" />
+      <Student name="Hani" heroName="TechnoBlade" />
+      <Person name="Ritu" heroName="Roblox" /> */}
+      {/* <FunctionClick />
+      <ClassClick />
+      <EventBind /> */}
+      <Parent />
     </div>
   );
 }
