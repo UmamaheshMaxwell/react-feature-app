@@ -12,6 +12,7 @@ import FunctionClick from './6.event-handling/FunctionClick';
 import ClassClick from './6.event-handling/ClassClick';
 import EventBind from './6.event-handling/EventBind';
 import Parent from './7.parent-child/Parent';
+import UserGreeting from './8.conditional-rendering/UserGreeting';
 
 function App() {
   return (
@@ -49,7 +50,8 @@ function App() {
       {/* <FunctionClick />
       <ClassClick />
       <EventBind /> */}
-      <Parent />
+      {/* <Parent /> */}
+      <UserGreeting />
     </div>
   );
 }
